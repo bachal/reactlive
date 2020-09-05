@@ -1,0 +1,455 @@
+/* cousel images css here */
+.imgsize{
+
+      height:400px;
+      width:100%;
+}
+
+/* navbar  css here */
+.navcolor{
+
+      background-color: mediumblue;
+      color: white;
+}
+/* image zoom effect   css here */
+.zoom {
+   
+      transition: transform .1s;
+      
+    }
+    
+    .zoom:hover {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.070); 
+    }
+/* buton zoom effect   css here */
+
+.zoom_button {
+   
+      transition: transform .1s;
+      
+    }
+    
+    .zoom_button:hover {
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.3); 
+      background-color: tomato;
+      
+    }
+    
+
+
+    /*row css here*/
+
+.rht{
+
+height:200px;
+
+}
+
+/* model style*/
+.modal-body {
+     
+      max-height: 500px;
+      overflow-y: scroll;
+  }
+
+
+  .modal-title{
+
+      text-align: center;
+      text-shadow: blue;
+  }
+
+  .modelheaderbg{
+        background-color: orangered;
+
+
+  }
+
+
+
+  /*welcome card style*/
+
+.cdht{
+   height:10px;
+
+
+}
+
+.navbar.bg1{
+      background:url(https://thumbs.dreamstime.com/t/abstract-image-blue-radial-brushed-metal-surface-website-banner-business-card-invitation-card-postcard-poster-wallpaper-143008081.jpg);
+      background-position: center;
+      background-size: cover;
+}
+
+.card.img-fluid {
+      background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ22uoUOtUOQpeyxtqjGnUenmjr6NNFNV47YQ&usqp=CAU);
+
+  /* background:url(https://static.vecteezy.com/system/resources/previews/000/204/331/non_2x/vector-shiny-metal-background.jpg);
+      background:url(https://cdn-thumbs.barewalls.com/wooden-plaque-with-brushed-metal_bwc19614686.jpg);*/
+      background-position: center;
+      background-size: cover;
+    }
+.aboutbg{
+      background: url(https://plaidonline.com/Plaid/media/PlaidLibrary/productImages/specialty-swatches/5120_Brushed_Pearl_Gold_swatch.jpg);
+      /*background: url(https://t3.ftcdn.net/jpg/02/39/65/44/240_F_239654480_JJBWH47hY7CKlNBen4B0WdU65kheIGOR.jpg);*/
+      background-position: center;
+      background-size: cover;
+}
+
+.contactbg{
+
+      background: url(https://www.photohdx.com/images/2015/11/gold-linear-brushed-metal-texture.jpg);
+      background-position: center;
+      background-size: cover;
+}
+/* fonts style here for tablet */
+
+@media only screen and (max-width: 769px){
+.f1{
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      color:red;
+      text-shadow: orchid;
+}
+.f2{
+
+     
+      font-size: 30px;
+      font-style: italic;
+      color:blueviolet;
+      text-shadow: orchid;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.f3{
+
+     
+      font-size: 10px;
+      font-style: italic;
+      color:rgb(219, 22, 137);
+      text-shadow: rgb(219, 22, 137);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.f4{
+
+     
+      font-size: 40px;
+      font-style: bold;
+      color:rgb(22, 68, 219);
+      text-shadow: rgb(219, 22, 137);
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.f6{
+
+     
+      font-size: 30px;
+      font-style: bold;
+      color:rgb(13, 66, 238);
+      text-shadow: rgb(219, 22, 137);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 50px;
+}
+
+.f7{
+
+     
+      font-size: 20px;
+      font-style: bold;
+      color:rgb(238, 84, 13);
+      text-shadow: rgb(219, 22, 137);
+      font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+.f8{
+
+     
+      font-size: 20px;
+      font-style: bold;
+      color:rgb(55, 56, 53);
+      text-shadow: rgb(219, 22, 137);
+      font-family: Arial, Helvetica, sans-serif;
+      
+}
+.img1{
+
+width:100%;
+height:150px;
+
+}
+
+.img2{
+
+      width:100%;
+      height:150px;
+     
+}
+.owner{
+
+
+      border-radius: 50%;
+      height:180px;
+      width:100%;
+}
+
+.brandname{
+
+      font-size: 20px;
+      font-weight: bolder;
+      color: aliceblue;
+}
+.navbar{
+
+      box-shadow: 10px 10px 5px grey;
+      height:60px;
+      
+}
+
+}
+
+
+
+
+
+
+/* fonts style here for Mobile */
+@media only screen and (max-width: 600px) {
+
+      .f1{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            color:red;
+            text-shadow: orchid;
+      }
+      .f2{
+
+     
+            font-size: 30px;
+            font-style: italic;
+            color:blueviolet;
+            text-shadow: orchid;
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .f3{
+
+     
+            font-size: 10px;
+            font-style: italic;
+            color:rgb(219, 22, 137);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+      .img1{
+
+            width:100%;
+            height:100px;
+            
+            }
+
+      .img2{
+
+            width:100%;
+            height:120px;
+            margin-top: -10px;
+      }
+
+      .f4{
+
+     
+            font-size: 30px;
+            font-style: bold;
+            color:rgb(22, 68, 219);
+            
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: rgb(223, 43, 19);
+      }
+
+      .f6{
+
+     
+            font-size: 30px;
+            font-style: bold;
+            color:rgb(13, 66, 238);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            text-shadow: rgb(223, 43, 19);
+      }
+
+      .f7{
+
+     
+            font-size: 25px;
+            font-style: bold;
+            color:rgb(238, 84, 13);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+            
+      }
+      .f8{
+
+     
+            font-size: 15px;
+            font-style: bold;
+            color:rgb(55, 56, 53);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+            
+      }
+
+      .owner{
+
+
+            border-radius: 50%;
+            height:180px;
+            width:100%;
+      }
+
+      .brandname{
+
+            font-size: 10px;
+            font-weight: bolder;
+            color: aliceblue;
+      }
+
+      .navbar{
+
+            box-shadow: 10px 10px 5px grey;
+            height:55px;
+            
+      }
+       
+
+}
+
+
+
+
+
+
+/* fonts style here for Desktop */
+@media only screen and (min-width: 770px) {
+
+      .f1{
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 30px;
+            color:red;
+            text-shadow: orchid;
+            border-radius: 10px;
+            border-color: chartreuse;
+            text-shadow: 2px 2px #001aff;
+      }
+      .f2{
+
+     
+            font-size: 80px;
+            font-style: italic;
+            color:blueviolet;
+            text-shadow: orchid;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px #ff0000;
+      }
+
+      .f3{
+
+     
+            font-size: 30px;
+            font-style: italic;
+            color:rgb(219, 22, 137);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .f4{
+
+     
+            font-size: 50px;
+            font-style: bold;
+            color:rgb(22, 68, 219);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .f6{
+
+     
+            font-size: 30px;
+            font-style: bold;
+            color:rgb(13, 66, 238);
+            
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 50px;
+            text-shadow: rgb(223, 43, 19);
+      }
+
+      .f7{
+
+     
+            font-size: 20px;
+            font-style: bold;
+            color:rgb(238, 84, 13);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+            
+      }
+      .f8{
+
+     
+            font-size: 25px;
+            font-style: bold;
+            color:rgb(55, 56, 53);
+            text-shadow: rgb(219, 22, 137);
+            font-family: Arial, Helvetica, sans-serif;
+            
+      }
+
+      .img1{
+
+            width:100%;
+            height:180px;
+            
+            }
+
+      .img2{
+
+            width:100%;
+            height:180px;
+                 
+      }
+
+      .owner{
+
+
+            border-radius: 50%;
+            height:180px;
+            width:50%;
+      }
+
+      .brandname{
+
+            font-size: 25px;
+            font-weight: bolder;
+            color: aliceblue;
+            text-shadow: 2px 2px #ff0000;
+      }
+
+      .navbar{
+
+            box-shadow: 10px 10px 5px grey;
+            height:60px;
+            
+      }
+
+      
+
+}
+
